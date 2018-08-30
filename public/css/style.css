@@ -1,43 +1,21 @@
 html {
-	position:relative;
+
+	position: relative;
 }
 
-body{
-	margin-bottom: 120px;
-	margin-top: 30px;
-}
-
-
-.jumbotron {
-	background-image: url(../img/contact-bg.jpg);
-}
-
-.jumbotron img {
-
-	width: 300px;
-	border: 5px solid #666;
+body {
+	margin-bottom: 100px;
 }
 
 
-hr {
-	width:250px;
-	border-top: 3px solid #999;
-
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffbf80;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
 }
 
-section {
-	min-height: 600px;
-}
-
-.portfolio {
-	background-color: #eee;
-
-}
-
-.contact {
-	min-height: 800px;
-}
-
-footer{
-	position:absolute;
-}

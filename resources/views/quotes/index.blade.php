@@ -4,6 +4,20 @@
 <title>coba coba</title>
 <div class="container">
 
+<style type="text/css"></style>
+      <div class= "header-container">
+      <div class= "video-container">
+          <video preload ="true" autoplay = "autoplay" loop = "loop" volume = "0" poster = "pic.jpg">
+
+            <source src = "video/Sequence 01.mp4" type = "video/mp4" >
+
+            
+          </video>
+          
+      </div>
+    </div>
+
+
     @if (session('msg'))
     <div class="alert alert-success">
 
@@ -12,6 +26,8 @@
     </div>
 
     @endif
+
+
 
     <div class="row">
         @foreach ($quotes as $quote)
